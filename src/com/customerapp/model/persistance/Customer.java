@@ -9,7 +9,7 @@ import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.NotEmpty;
 
 @Entity
-@Table(name = "customer_table164")
+@Table(name = "customer_table_app")
 public class Customer {
 	@Id
 	@GeneratedValue

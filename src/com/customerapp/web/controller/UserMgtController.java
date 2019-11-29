@@ -23,7 +23,7 @@ public class UserMgtController {
 	@Autowired
 	private UserService userService;
 
-	// @PostConstruct
+	//@PostConstruct
 	public void init() {
 		userService.addUser(new User("nandu", "nandu@gmail.com", "nandu123", "admin", true));
 		userService.addUser(new User("venky", "venky@gmail.com", "venky123", "mgr", true));

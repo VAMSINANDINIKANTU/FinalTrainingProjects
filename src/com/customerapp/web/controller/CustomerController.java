@@ -73,6 +73,7 @@ public class CustomerController {
 		Customer customerToBeUpdate = customerService.getCustomerById(customerId);
 		map.addAttribute("customer", customerToBeUpdate);
 		return "addcustomer";
+		
 
 	}
 	/*
